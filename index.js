@@ -33,6 +33,7 @@ let showMessES6 = (mess) => {
     console.log(mess);
 }
 
+
 // đối với hàm có lệnh return 
 // es5
 let tinhDiemTrungBinh = function (dToan, dLy, dHoa) {
@@ -82,3 +83,4 @@ let hienThiThongTinHocVien = function (...rest){
 hienThiThongTinHocVien(1,'nguyen van D','fe 41');
 hienThiThongTinHocVien('nguyen van E','fe 41');
 hienThiThongTinHocVien(2,'nguyen van E','fe 41',4);
+hienThiThongTinHocVien(2,'nguyen van E','fe 41',5,'test');
